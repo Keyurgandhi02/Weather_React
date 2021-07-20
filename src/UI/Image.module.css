@@ -1,0 +1,12 @@
+.header {
+  position: absolute;
+  width: 72%;
+  height: 400px;
+  z-index: 15;
+  top: 50%;
+  box-shadow: 0 4px 10px rgb(0 0 0 / 0.2);
+  left: 45%;
+  text-align: center;
+  align-items: center;
+  margin: -140px 0 0 -280px;
+}

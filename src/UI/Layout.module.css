@@ -1,0 +1,18 @@
+.column1 {
+  float: left;
+  width: 35%;
+  padding: 10px;
+  height: 400px;
+  margin-top: 35px;
+}
+
+.column2 {
+  float: left;
+  width: 60%;
+  height: 300px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}

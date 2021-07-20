@@ -1,0 +1,33 @@
+form.example input[type="text"] {
+  padding: 12px;
+  font-size: 14px;
+  border: 1px solid grey;
+  float: left;
+  width: 50%;
+  margin-left: 20%;
+  background: #f1f1f1;
+  margin-top: 75px;
+}
+
+form.example button {
+  float: left;
+  width: 10%;
+  padding: 12px;
+  background: #2196f3;
+  color: white;
+  font-size: 14px;
+  margin-top: 75px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
